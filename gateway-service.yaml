@@ -28,15 +28,15 @@ spring:
         - id: msTicket
           uri: lb://msTicket
           predicates:
-            - Path=/api/Ticket1/**
+            - Path=/api/ticket1/**
         - id: maTicketAproval
           uri: lb://msTicketAproval
           predicates:
-            - Path=/api/Ticket2/**
+            - Path=/api/ticket2/**
         - id: msTicketTracking
           uri: lb://msTicketTracking
           predicates:
-            - Path=/api/Ticket3/**
+            - Path=/api/ticket3/**
         - id: msDocument
           uri: lb://msDocument
           predicates:
